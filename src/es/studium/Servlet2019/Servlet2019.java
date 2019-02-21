@@ -107,4 +107,12 @@ public class Servlet2019 extends HttpServlet {
 		return resultadoContador;
 >>>>>>> 5681e099d76e9bf37477c7ed249bed8bbbe10612
 	}
+public static String mayusculaOminuscula (String cadena ){
+    
+	if (cadena == null || cadena.isEmpty()) {
+        return cadena;
+    } else {       
+        return  cadena.toUpperCase().charAt(0) + cadena.substring(1, cadena.length()).toLowerCase();
+    }
+}
 }
