@@ -37,9 +37,21 @@ public class Servlet2019 extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
 	{
 		// TODO Auto-generated method stub
-		doGet(request, response);
+		// doGet(request, response);
+		
 	}
+	
+	public int sumaFecha(String fecha)
+	{
+		String[] nums = fecha.split("/");
+		int dia = Integer.parseInt(nums[0]);
+		int mes = Integer.parseInt(nums[1]);
+		int anio = Integer.parseInt(nums[2]);
+		
+		return (dia + mes + anio);
+	}	
 
+<<<<<<< HEAD
 	public String cambiarNombre(String cadena)
 	{
 		if(cadena != "")
@@ -47,5 +59,32 @@ public class Servlet2019 extends HttpServlet {
 			cadena = "El Pera";
 		}
 		return cadena;
+=======
+	public int sacarVocales (String cadena)
+	{
+		 String vocales="aeiou";
+		 int resultadoContador = 0;
+        int contadorLetras[]={0,0,0,0,0};
+ 
+        // recorremos la cadena recibida letra a letra
+        for(int i=0;i<cadena.length();i++)
+        {
+            // recorremos las vocales para comparar con cada una de las letras
+            for(int j=0;j<vocales.length();j++)
+            {
+                if(cadena.charAt(i)==vocales.charAt(j))
+                {
+                    // aumentamos el contador para la vocal encontrada
+                	contadorLetras[j]++;
+                }
+            }
+        }
+		
+        for(int a=0;a<vocales.length();a++)
+        {
+        	resultadoContador += contadorLetras[a];
+        }
+		return resultadoContador;
+>>>>>>> 5681e099d76e9bf37477c7ed249bed8bbbe10612
 	}
 }
