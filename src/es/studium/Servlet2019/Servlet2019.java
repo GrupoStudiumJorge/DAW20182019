@@ -1,6 +1,7 @@
 package es.studium.Servlet2019;
 
 import java.io.IOException;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -32,7 +33,8 @@ public class Servlet2019 extends HttpServlet {
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+	{
 		// TODO Auto-generated method stub
 <<<<<<< HEAD
 		doGet(request, response);
@@ -69,6 +71,15 @@ public class Servlet2019 extends HttpServlet {
 	}	
 >>>>>>> 5681e099d76e9bf37477c7ed249bed8bbbe10612
 
+<<<<<<< HEAD
+	public String cambiarNombre(String cadena)
+	{
+		if(cadena != "")
+		{
+			cadena = "El Pera";
+		}
+		return cadena;
+=======
 	public int sacarVocales (String cadena)
 	{
 		 String vocales="aeiou";
@@ -94,5 +105,6 @@ public class Servlet2019 extends HttpServlet {
         	resultadoContador += contadorLetras[a];
         }
 		return resultadoContador;
+>>>>>>> 5681e099d76e9bf37477c7ed249bed8bbbe10612
 	}
 }
