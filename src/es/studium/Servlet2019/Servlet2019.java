@@ -38,6 +38,16 @@ public class Servlet2019 extends HttpServlet {
 		// doGet(request, response);
 		
 	}
+	
+	public int sumaFecha(String fecha)
+	{
+		String[] nums = fecha.split("/");
+		int dia = Integer.parseInt(nums[0]);
+		int mes = Integer.parseInt(nums[1]);
+		int anio = Integer.parseInt(nums[2]);
+		
+		return (dia + mes + anio);
+	}	
 
 	public int sacarVocales (String cadena)
 	{
