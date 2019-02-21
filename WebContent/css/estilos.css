@@ -4,23 +4,33 @@ h1
 	color: purple;
     background-color: #d8da3d;
 }
-<<<<<<< HEAD
-.luciano {
-	color:red;
-=======
 
-<<<<<<< HEAD
+#divFelix {
+	background-color: rgb(224, 237, 109);
+}
+section
+{
+	color: red;
+	font-size: 20px;
+}
+
+.luciano 
+{
+	color:red;
+}
+
 #soto
 {
 	color: #00BFFF;
 	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-=======
+
 #divLuis
 {
 	border:5px solid green;
 }
 
-#divJairo{
+#divJairo
+{
 	width: 80%;
     margin: auto;
     background-color: rgb(17, 138, 97);
@@ -28,8 +38,9 @@ h1
     font-family: Helvetica, Arial;
     font-size: 15px;
     text-align: center;
->>>>>>> 5681e099d76e9bf37477c7ed249bed8bbbe10612
+
 }
 #alvaro{
 	 width: 100%;
+
 }
