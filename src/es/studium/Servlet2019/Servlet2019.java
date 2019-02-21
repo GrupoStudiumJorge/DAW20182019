@@ -51,7 +51,7 @@ public class Servlet2019 extends HttpServlet {
 		return (dia + mes + anio);
 	}	
 
-<<<<<<< HEAD
+
 	public String cambiarNombre(String cadena)
 	{
 		if(cadena != "")
@@ -59,7 +59,8 @@ public class Servlet2019 extends HttpServlet {
 			cadena = "El Pera";
 		}
 		return cadena;
-=======
+	}
+	
 	public int sacarVocales (String cadena)
 	{
 		 String vocales="aeiou";
@@ -85,6 +86,6 @@ public class Servlet2019 extends HttpServlet {
         	resultadoContador += contadorLetras[a];
         }
 		return resultadoContador;
->>>>>>> 5681e099d76e9bf37477c7ed249bed8bbbe10612
+
 	}
 }
