@@ -57,9 +57,18 @@ public class Servlet2019 extends HttpServlet {
 		return "Despues : " + cadena;
 	}
 
+
 	// doGet(request, response);
 
-
+	public String cambioSexo(String sexo) {
+		if(sexo.equals("hombre")) {
+			sexo = "mujer";
+		}else {
+			sexo = "hombre";			
+		}
+		return sexo;
+		
+	}
 
 	public int sumaFecha(String fecha)
 	{
@@ -70,6 +79,7 @@ public class Servlet2019 extends HttpServlet {
 
 		return (dia + mes + anio);
 	}	
+
 
 
 	public String cambiarNombre(String cadena)
