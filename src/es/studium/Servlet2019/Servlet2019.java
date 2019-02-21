@@ -28,7 +28,6 @@ public class Servlet2019 extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
-	}
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
@@ -36,6 +35,22 @@ public class Servlet2019 extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		doGet(request, response);
+		}
 	}
+	
+	//Luciano
+	public static String CambiarVocalesi(String cadena) {
+
+		char[] cadenaCharArray= cadena.toCharArray();
+		System.out.println("Antes : " + cadena);
+		for(int i = 0 ; i < cadena.length() ; i++) {
+			if(Character.toString(cadenaCharArray[i]).matches("[aeiou]")) {
+				// cadenaCharArray[i] = Character.toUpperCase(cadenaCharArray[i]);
+				cadenaCharArray[i] = 'i';
+			}
+		}
+		cadena = String.valueOf(cadenaCharArray);
+		return "Despues : " + cadena;
+}
 
 }
