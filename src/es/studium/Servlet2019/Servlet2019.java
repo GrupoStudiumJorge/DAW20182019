@@ -37,5 +37,15 @@ public class Servlet2019 extends HttpServlet {
 		// TODO Auto-generated method stub
 		doGet(request, response);
 	}
+	
+	public String cambioSexo(String sexo) {
+		if(sexo.equals("hombre")) {
+			sexo = "mujer";
+		}else {
+			sexo = "hombre";			
+		}
+		return sexo;
+		
+	}
 
 }
