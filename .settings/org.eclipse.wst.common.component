@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+<<<<<<< HEAD
     <wb-module deploy-name="DAW20182019-master">
         <wb-resource deploy-path="/" source-path="/appClientModule" tag="defaultRootSource"/>
         <property name="java-output-path" value="/DAW20182019-master/build/classes"/>
+=======
+    <wb-module deploy-name="PracticaTema6_20182019">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <property name="context-root" value="PracticaTema6_20182019"/>
+        <property name="java-output-path" value="/PracticaTema6_20182019/build/classes"/>
+>>>>>>> 81f5340ca5bd1beafd3ca8f1e489be0331b7d64f
     </wb-module>
 </project-modules>

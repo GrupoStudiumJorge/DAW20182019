@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 h1 {
 	color: purple;
 	background-color: #d8da3d;
@@ -17,4 +16,48 @@ h1 {
 	left: 0px;
 	border-radius: 200px;
 	position: absolute;
+}
+h1
+{
+	color: purple;
+    background-color: #d8da3d;
+}
+
+#divFelix {
+	background-color: rgb(224, 237, 109);
+}
+section
+{
+	color: red;
+	font-size: 20px;
+}
+
+.luciano 
+{
+	color:red;
+}
+
+#soto
+{
+	color: #00BFFF;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+#divLuis
+{
+	border:5px solid green;
+}
+
+#divJairo
+{
+	width: 80%;
+    margin: auto;
+    background-color: rgb(17, 138, 97);
+    color: white;
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    text-align: center;
+
+}
+#alvaro{
+	 width: 100%;
 }
