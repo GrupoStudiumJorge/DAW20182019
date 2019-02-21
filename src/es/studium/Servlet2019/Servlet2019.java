@@ -179,5 +179,11 @@ public static String mayusculaOminuscula (String cadena ){
         return  cadena.toUpperCase().charAt(0) + cadena.substring(1, cadena.length()).toLowerCase();
     }
 }
+
+	public String mostrarFechaActual() {
+
+		DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+		return dateFormat.format(new Date());
+	}
 }
 

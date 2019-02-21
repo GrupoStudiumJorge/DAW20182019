@@ -1,11 +1,12 @@
 @charset "UTF-8";
 
-<<<<<<< HEAD
+
 body {
 
     margin: auto;
-    width: 800px;
-=======
+	width: 800px;
+}
+
 h1 {
 	color: purple;
 	background-color: #d8da3d;
@@ -23,7 +24,7 @@ h1 {
 	left: 0px;
 	border-radius: 200px;
 	position: absolute;
->>>>>>> 4810e7020163081a10aa75f5a25331eaa616a35d
+
 }
 
 h1
@@ -37,7 +38,7 @@ h1
 	background-color: #BEBEB1;
 	width: 100%;
 	text-align: center;
-
+}
 
 #divFelix {
 	background-color: rgb(224, 237, 109);
@@ -75,7 +76,7 @@ section
     text-align: center;
 
 }
-<<<<<<< HEAD
+
 
 
 form {
@@ -103,8 +104,9 @@ form button {
     width: 100px;
     margin: 10px auto;
 
-=======
+}
+
 #alvaro{
 	 width: 100%;
->>>>>>> 4810e7020163081a10aa75f5a25331eaa616a35d
+
 }
