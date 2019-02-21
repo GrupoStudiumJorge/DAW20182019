@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+h1 {
+	color: purple;
+	background-color: #d8da3d;
+}
+
+#manuelCamachoMachuca {
+	color: green;
+	top: 50px;
+	left: 50px;
+	position: absolute;
+}
+
+#imgStudium {
+	top: 80px;
+	left: 0px;
+	border-radius: 200px;
+	position: absolute;
+}
