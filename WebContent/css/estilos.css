@@ -1,9 +1,29 @@
 @charset "UTF-8";
 
+<<<<<<< HEAD
 body {
 
     margin: auto;
     width: 800px;
+=======
+h1 {
+	color: purple;
+	background-color: #d8da3d;
+}
+
+#manuelCamachoMachuca {
+	color: green;
+	top: 50px;
+	left: 50px;
+	position: absolute;
+}
+
+#imgStudium {
+	top: 80px;
+	left: 0px;
+	border-radius: 200px;
+	position: absolute;
+>>>>>>> 4810e7020163081a10aa75f5a25331eaa616a35d
 }
 
 h1
@@ -12,6 +32,16 @@ h1
     background-color: #b2b3b0;
 }
 
+.victor
+{
+	background-color: #BEBEB1;
+	width: 100%;
+	text-align: center;
+
+
+#divFelix {
+	background-color: rgb(224, 237, 109);
+}
 section
 {
 	color: red;
@@ -42,8 +72,10 @@ section
     color: white;
     font-family: Helvetica, Arial;
     font-size: 15px;
+    text-align: center;
 
 }
+<<<<<<< HEAD
 
 
 form {
@@ -71,4 +103,8 @@ form button {
     width: 100px;
     margin: 10px auto;
 
+=======
+#alvaro{
+	 width: 100%;
+>>>>>>> 4810e7020163081a10aa75f5a25331eaa616a35d
 }
