@@ -1,6 +1,7 @@
 package es.studium.Servlet2019;
 
 import java.io.IOException;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -36,6 +37,22 @@ public class Servlet2019 extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		doGet(request, response);
+		
 	}
-
+	
+	// Felix del Rio
+	public static String contarLetrasSinVocales(String cadena) {
+		String salida = null;
+		char[] cadenaCharArray = cadena.toCharArray();
+		int cont = 0;
+		for(int i = 0 ; i < cadena.length() ; i++) {
+			if(Character.toString(cadenaCharArray[i]).matches("[bcdfghjklmnñpqrstvwxyzBCDFGHJKLMNÑPQRSTVWXYZ]")) {
+				// cadenaCharArray[i] = Character.toUpperCase(cadenaCharArray[i]);
+				cont ++;
+			}
+		}
+		salida = "La cadena : '" + cadena + "' El nombre sin contar las vocales tiene : " + cont + " letras.";
+		return (salida);
+	}
+	
 }
