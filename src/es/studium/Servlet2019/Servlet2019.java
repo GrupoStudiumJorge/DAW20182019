@@ -185,5 +185,21 @@ public static String mayusculaOminuscula (String cadena ){
 		DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
 		return dateFormat.format(new Date());
 	}
+
+	//Rafael Garrido Lora
+	public String colores(String color, String fondo) 
+	{
+	String colorFondo = color+ "" +fondo ;
+	for(int i=0; i<colorFondo.lenght;i++) {
+		char letra=colorFondo.charAt(i);
+		String resultado="";
+		if (letra=='a'||letra=='o'||letra=='i'||letra=='e') {
+			resultado+="u";
+		}else {
+			resultado+=letra;
+		}
+	}
+	return resultado;
+	}
 }
 
