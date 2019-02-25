@@ -186,6 +186,14 @@ public static String mayusculaOminuscula (String cadena ){
 		return dateFormat.format(new Date());
 	}
 
+	//Guillermo Iglesias Reyes
+	public String Guille (String cadenaGuille)
+	{
+		String parrafo = cadenaGuille.charAt(0)+charAt(cadenaGuille.length-1);
+		return parrafo;
+	}
+	
+	
 	//Rafael Garrido Lora
 	public String colores(String color, String fondo) 
 	{
