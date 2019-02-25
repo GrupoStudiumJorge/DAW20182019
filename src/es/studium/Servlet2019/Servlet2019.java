@@ -201,5 +201,11 @@ public static String mayusculaOminuscula (String cadena ){
 	}
 	return resultado;
 	}
+	//Jesus Vazquez 
+	public String minusculas(String cadena){
+		String salida = null;
+		salida = cadena.toLowerCase();
+		return (salida);
+	}
 }
 
