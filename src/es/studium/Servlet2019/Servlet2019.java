@@ -193,6 +193,13 @@ public static String mayusculaOminuscula (String cadena ){
 		return parrafo;
 	}
 	
+	//Carmen Rodríguez
+	public String saludo(String nombre){
+		String hola = "¡¡Bienvenid@ "+ nombre + "!!";
+		return hola;
+		
+	}
+	
 	
 	//Rafael Garrido Lora
 	public String colores(String color, String fondo) 
