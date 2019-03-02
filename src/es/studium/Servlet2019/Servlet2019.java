@@ -1,7 +1,7 @@
 package es.studium.Servlet2019;
 
 import java.io.IOException;
-
+import java.io.PrintWriter;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -72,7 +72,35 @@ public class Servlet2019 extends HttpServlet {
 	{
 		// TODO Auto-generated method stub
 
-		doGet(request, response);
+		//doGet(request, response);
+    
+    		//doGet(request, response);
+		
+    // FRANCISCO BAREA
+		// Recupera la sesión actual o crea una nueva si no existe
+		HttpSession session = request.getSession(true);
+		response.setContentType("text/html;charset=UTF-8");
+		PrintWriter out = response.getWriter();
+
+		String nextPage = "";
+		String modo = request.getParameter("modo");
+		
+		if(modo.equals("fibonacci")) {
+			
+			int n = Integer.parseInt(request.getParameter("numero"));
+			int t1 = 0;
+	        int t2 = 1;
+	        
+	        for (int i = 1; i <= n; ++i)
+	        {
+	        	out.print(t1 + " + ");
+
+		            int sum = t1 + t2;
+		            t1 = t2;
+		            t2 = sum;
+		        }	        
+	    }
+
 		
 	}
 	
@@ -222,5 +250,9 @@ public static String mayusculaOminuscula (String cadena ){
 		salida = cadena.toLowerCase();
 		return (salida);
 	}
+	
+	
+	} 
+	
 }
 
