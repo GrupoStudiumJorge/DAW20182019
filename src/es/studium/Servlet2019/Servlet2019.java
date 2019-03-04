@@ -251,8 +251,18 @@ public static String mayusculaOminuscula (String cadena ){
 		return (salida);
 	}
 	
-	
-	} 
+	//Ismael Miguel Banqueri 
+	public String banqueri(String p)
+	{
+		
+		if(p != "")
+		{
+			p = "957";
+			int n = Integer.valueOf(p);
+		}
+		return n;
+	}
+} 
 	
 }
 

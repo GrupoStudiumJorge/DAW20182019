@@ -138,3 +138,12 @@ div#pacobarea{
   text-align: center;
   font-size:1.5em;
 }
+
+.banqueri
+{
+	margin-left: 40%;
+	padding: 5%;
+	text-decoration: none;
+	background-color:red;
+	color: white;
+}
