@@ -251,6 +251,7 @@ public static String mayusculaOminuscula (String cadena ){
 		return (salida);
 	}
 	
+<<<<<<< HEAD
 	//Monica
 	private int edad(Calendar fehcaNac){
 		Calendar today = Calendar.getInstance();
@@ -268,6 +269,8 @@ public static String mayusculaOminuscula (String cadena ){
 	
 	
 	
+=======
+>>>>>>> 86a2e6d0fcbab9a1e6ebceab7979bd9574589b86
 	//Ismael Miguel Banqueri 
 	public String banqueri(String p)
 	{
