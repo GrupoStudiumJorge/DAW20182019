@@ -251,6 +251,29 @@ public static String mayusculaOminuscula (String cadena ){
 		return (salida);
 	}
 	
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+	//Monica
+	private int edad(Calendar fehcaNac){
+		Calendar today = Calendar.getInstance();
+		
+		int year = today.get(Calendar.YEAR) - fechaNac.get(Calendar.YEAR);
+		int mes = today.get(Calendar.MONTH) - fechaNac.get(Calendar.MONTH);
+		int dia = today.get(Calendar.DAY_OF_MONTH) - fechaNac.get(Calendar.DAY_OF_MONTH);
+		
+		//Si está en ese año no los ha cumplido
+		if (mes < 0 || (mes == 0 && dia <0)){
+			year=year -1;
+		}
+		return year;
+	}
+	
+	
+	
+=======
+>>>>>>> 86a2e6d0fcbab9a1e6ebceab7979bd9574589b86
+>>>>>>> d5e28c52288b3ad5abc38265a6df2891c8719930
 	//Ismael Miguel Banqueri 
 	public String banqueri(String p)
 	{
@@ -262,6 +285,7 @@ public static String mayusculaOminuscula (String cadena ){
 		}
 		return n;
 	}
+<<<<<<< HEAD
 	
 	public static String limpiarAcentos(String cadena) {
     String limpio =null;
@@ -274,6 +298,8 @@ public static String mayusculaOminuscula (String cadena ){
     }
     return limpio;
 }
+=======
+>>>>>>> d5e28c52288b3ad5abc38265a6df2891c8719930
 } 
 	
 }

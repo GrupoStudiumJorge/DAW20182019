@@ -95,9 +95,12 @@ section
 
 }
 
+<<<<<<< HEAD
 .divGamarro{
 	color: blue;
 }
+=======
+>>>>>>> d5e28c52288b3ad5abc38265a6df2891c8719930
 
 
 form {
@@ -149,4 +152,14 @@ div#pacobarea{
 	text-decoration: none;
 	background-color:red;
 	color: white;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+}
+
+#monica{
+	background-color:pink;
+=======
+>>>>>>> 86a2e6d0fcbab9a1e6ebceab7979bd9574589b86
+>>>>>>> d5e28c52288b3ad5abc38265a6df2891c8719930
 }
