@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+
+body {
+
+    margin: auto;
+	width: 800px;
+}
+
+h1 {
+	color: purple;
+	background-color: #d8da3d;
+}
+
+#guille {
+	color: blue
+}
+
+.carmenrr{
+	color: rgb(69,35,90);
+	font-size: 25px;
+	background-color: #DCE891;
+	margin: 10px;
+	padding: 5px;
+}
+
+#manuelCamachoMachuca {
+	color: green;
+	top: 50px;
+	left: 50px;
+	position: absolute;
+}
+
+#imgStudium {
+	top: 80px;
+	left: 0px;
+	border-radius: 200px;
+	position: absolute;
+
+}
+
+h1
+{
+	color: rgb(255, 255, 255);
+    background-color: #b2b3b0;
+}
+
+.victor
+{
+	background-color: #BEBEB1;
+	width: 100%;
+	text-align: center;
+}
+
+#divFelix {
+	background-color: rgb(224, 237, 109);
+}
+section
+{
+	color: red;
+	font-size: 20px;
+}
+
+.luciano 
+{
+	color:red;
+}
+
+#soto
+{
+	color: #00BFFF;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+#garrido
+{
+	
+	color:red;
+	background-color: #BEBEB1;
+	
+}
+#divLuis
+{
+	border:5px solid green;
+}
+
+#divJairo
+{
+	width: 80%;
+    margin: auto;
+    background-color: rgb(17, 138, 97);
+    color: white;
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.divGamarro{
+	color: blue;
+}
+
+
+form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+form .cuenta-caja {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+
+}
+form .cuenta-caja input {
+
+    width: 400px;
+    margin: 5px
+}
+
+form button {
+
+    width: 100px;
+    margin: 10px auto;
+
+}
+
+#alvaro{
+	 width: 100%;
+
+}
+h3{
+	color: blue;
+	font-size: 40px;
+	text-align: center;
+}
+
+div#pacobarea{
+  text-align: center;
+  font-size:1.5em;
+}
+
+.banqueri
+{
+	margin-left: 40%;
+	padding: 5%;
+	text-decoration: none;
+	background-color:red;
+	color: white;
+}
