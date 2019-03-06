@@ -216,7 +216,15 @@ public static String mayusculaOminuscula (String cadena ){
         return  cadena.toUpperCase().charAt(0) + cadena.substring(1, cadena.length()).toLowerCase();
     }
 }
-
+//rafael Robles
+public String cambiarEspacio(String es)
+{
+	if(es != " ")
+	{
+		es = "-";
+	}
+	return es;
+}
 	public String mostrarFechaActual() {
 
 		DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
