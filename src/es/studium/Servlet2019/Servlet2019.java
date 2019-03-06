@@ -2,6 +2,7 @@ package es.studium.Servlet2019;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.function.Function;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -61,6 +62,14 @@ public class Servlet2019 extends HttpServlet {
 		return (salida);
 	}
 
+	//Jose Manuel Rufo Delgado
+	/*Calculamos letra del DNI o NIF*/
+	public int calculaletradni(int dni) {
+		String letras = "TRWAGMYFPDXBNJZSQVHLCKE";
+		int calcularesto = dni%23;
+		char letradni = letras.charAt(calcularesto);
+		return letradni;
+	}
 }
 
 

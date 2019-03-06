@@ -163,3 +163,38 @@ div#pacobarea{
 >>>>>>> 86a2e6d0fcbab9a1e6ebceab7979bd9574589b86
 >>>>>>> d5e28c52288b3ad5abc38265a6df2891c8719930
 }
+
+/* CSS Jose Manuel Rufo*/
+#menu-hor-jmrufo {
+  margin: 40px 0px 40px 0px;
+}
+
+#menu-hor-jmrufo p{
+  font-weight: bold;
+  color: #3F51B5;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 5px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #FF9800;
+}
